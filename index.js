@@ -54,7 +54,7 @@ function enviar() {
     if (erroMensagem) {
         alert(erroMensagem);
     } else {
-        alert(`Fará uma viagem saindo de: ${lo}, indo para: ${ld}, na classe: ${classe}`);
+        alert(` Fará uma viagem saindo de: ${lo} \n Indo para: ${ld}\n Classe: ${classe}`);
     }
 };
 

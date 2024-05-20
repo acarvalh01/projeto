@@ -4,6 +4,7 @@
     padding: 0;
     position: relative; 
 }
+
 body{
     background-image: url(image/paisagem2.jpg);
     backdrop-filter: opacity(10%);
