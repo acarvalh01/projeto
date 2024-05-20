@@ -11,29 +11,32 @@
     <div class="caixa">
         <h1 style="top:15px;">ReCode jr. - Trips</h1>
         <div class="campo">
-            <input type="text" id="lo"class="form" placeholder="Local de origem"/>
+            <input type="text" id="lo"class="form" placeholder="Local de Origem"/>
             <label for="lo"></label>
         </div>
         <div class="campo">
-            <input type="text" id="ld" class="form" placeholder="Local de destino"/>
+            <input type="text" id="ld" class="form" placeholder="Local de Destino"/>
             <label for="ld"></label>
         </div>
         <div class="campo">
-            <input type="number" id="qtd-passagem"class="form" placeholder="Quantidade de passagem"/>
-            <label for="qtd-passagem"></label>
+            <input type="number" id="qtd_passagem" class="form" placeholder="Quantidade de Passagem"/>
+            <label for="qtd_passagem"></label>
         </div>
         <div class="campo">
-            <input type="text" id="classe" class="form" placeholder="Classe"/>
+            <input type="t" id="classe" class="form" placeholder="Classe"/>
             <label for="classe"></label>
         </div>
         <div class="check">
-            <input type="checkbox" id="ida-volta">
-            <label for="ida-volta">Passagem de ida e volta</label>
+            <input onclick="check()" type="checkbox" id="ida_volta">
+            <label for="ida_volta">Passagem de ida e volta</label>
         </div>
         <div>
-            <button type="submit" class="button" ><p>Buscar</p></button>
+            <button onclick="enviar()" type="submit" class="button"  ><p>Buscar</p></button>
         </div>
-        <a href="https://www.decolar.com/">Ainda não sabe onde ir? Encontre aqui</a>
+        <a href="cidades.html">Ainda não sabe onde ir? Encontre aqui</a>
     </div>
 </body>
+
+<script src="index.js"></script>
+
 </html>
